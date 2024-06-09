@@ -10,4 +10,5 @@ aws s3 cp hello.txt s3://change-storage-class-tuts --storage-class STANDARD_IA -
 ## Cleanup
 
 aws s3 rm s3://change-storage-class-tuts/hello.txt --region me-central-1
+
 aws s3 rb s3://change-storage-class-tuts --region me-central-1
